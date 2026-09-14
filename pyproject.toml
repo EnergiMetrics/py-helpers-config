@@ -1,7 +1,7 @@
 [project]
-name = "energimetrics-config-helper"
+name = "energimetrics.helpers.config"
 version = "0.1.0"
-description = "YAML configuration loading and Pydantic validation for Energimetrics Python applications"
+description = "YAML configuration loading and Pydantic validation for EnergiMetrics Python applications"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
@@ -13,6 +13,9 @@ dependencies = [
 [build-system]
 requires = ["uv_build>=0.12.11,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "energimetrics.helpers.config"
 
 [dependency-groups]
 dev = [

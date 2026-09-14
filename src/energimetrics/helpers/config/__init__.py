@@ -1,4 +1,4 @@
-"""YAML configuration loading for Energimetrics Python applications."""
+"""YAML configuration loading for EnergiMetrics Python applications."""
 
 from .exceptions import (
     ConfigError,

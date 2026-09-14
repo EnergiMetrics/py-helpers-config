@@ -5,7 +5,7 @@ from typing import assert_type
 
 from pydantic import BaseModel
 
-from energimetrics_config_helper import ConfigLoader
+from energimetrics.helpers.config import ConfigLoader
 
 
 class ApplicationConfig(BaseModel):

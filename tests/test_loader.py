@@ -6,7 +6,7 @@ from unittest.mock import patch
 import pytest
 from pydantic import BaseModel
 
-from energimetrics_config_helper import (
+from energimetrics.helpers.config import (
     ConfigError,
     ConfigFileError,
     ConfigLoader,
